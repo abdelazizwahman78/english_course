@@ -1,0 +1,267 @@
+ /*header section*/
+ .hero_area {
+    height: 98vh;
+    background-color: #f4f7fc
+  }
+  
+  .hero_area.sub_pages {
+    height: auto;
+  }
+  
+  .header_section {}
+  
+  .header_section .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  
+  .header_section .nav_container {
+    margin: 0 auto;
+  }
+  
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 30px;
+    color: #414141;
+    text-align: center;
+    transition: .2s all ease-in-out;
+    -webkit-transition: .2s all ease-in-out;
+    -moz-transition: .2s all ease-in-out;
+    -ms-transition: .2s all ease-in-out;
+    -o-transition: .2s all ease-in-out;
+  }
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link:hover{
+   color: #086fe4;
+  }
+  
+  a,
+  a:hover,
+  a:focus {
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    color: initial;
+  }
+  
+  .btn,
+  .btn:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+  
+  
+  
+  .navbar-brand,
+  .navbar-brand:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fafcfd;
+  }
+  
+  .custom_nav-container .nav_search-btn {
+    background-image: url(../images/search-icon.png);
+  
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position-y: 7px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    width: 45px;
+    margin-right: 5px;
+  }
+  
+  .navbar-brand span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #086fe4;
+    margin-top: 5px;
+  }
+  
+  .custom_nav-container {
+    z-index: 99999;
+    padding: 15px 0;
+  }
+  
+  .custom_nav-container .navbar-toggler {
+    outline: none;
+  }
+  
+  .custom_nav-container .navbar-toggler .navbar-toggler-icon {
+    background-image: url(../images/menu.png);
+    background-size: 55px;
+  }
+  
+  .quote_btn-container a {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #086fe4;
+    color: #f7f7f7;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: .2s all ease-in-out;
+    -webkit-transition: .2s all ease-in-out;
+    -moz-transition: .2s all ease-in-out;
+    -ms-transition: .2s all ease-in-out;
+    -o-transition: .2s all ease-in-out;
+  }
+  .quote_btn-container a:hover{
+    background-color: transparent;
+    border: 1px solid #086fe4;
+    color: #086fe4;
+  }
+  .quote_btn-container2 a{
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #282828;
+    color: #ffffff;
+    /* border: 1px solid #0d0d0d; */
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: .2s all ease-in-out;
+    -webkit-transition: .2s all ease-in-out;
+    -moz-transition: .2s all ease-in-out;
+    -ms-transition: .2s all ease-in-out;
+    -o-transition: .2s all ease-in-out;
+  }
+  .quote_btn-container2 a:hover{
+    border: 1px solid #282828;
+    color: #282828;
+    background-color: transparent;
+  }
+  
+  /*end header section*/
+
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
+    /* height:9vh; */
+    color: #3a3e42 !important;
+}
+.AppForm .AppFormLeft h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.AppForm .AppFormLeft .linne{
+    height: 5px;
+    width: 50px;
+    background-color: #3a3e42;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.AppForm .AppFormLeft input:focus{
+    border-color: #ced4da;
+}
+.AppForm .AppFormLeft input::placeholder{
+   font-size: 15px;
+}
+.AppForm .AppFormLeft i{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.AppForm .AppFormLeft a{
+    color: #3a3e42 ;
+    font-weight: bold;
+}
+.AppForm .AppFormLeft button{
+    background: linear-gradient(45deg,#0068d7,#02499f);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+}
+.AppForm .AppFormLeft button:hover{
+    background: linear-gradient(45deg,#02499f,#0068d7);
+}
+.AppForm .AppFormLeft p a{
+  color: #00448c;
+  font-weight: bold;
+  transition: .1s all ease-in-out;
+  -webkit-transition: .1s all ease-in-out;
+  -moz-transition: .1s all ease-in-out;
+  -ms-transition: .1s all ease-in-out;
+  -o-transition: .1s all ease-in-out;
+}
+.AppForm .AppFormLeft p a:hover{
+    color: #003369;
+    cursor: pointer;
+  }
+.AppForm .AppFormRight{
+    background-image: url('https://i.pinimg.com/736x/89/1c/c4/891cc4f8e8a7016ad12ca2683888813c.jpg');
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+.AppForm .AppFormRight:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#000000,#031746);
+    opacity: 0.6;
+}
+.AppForm .AppFormRight h2{
+    z-index: 1;
+    font-weight: bold;
+    font-size: 36px;
+}
+.AppForm .AppFormRight h2::after{
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 5px;
+  background-color: #fff;
+  bottom: 0;
+  left:50%;
+  transform: translateX(-50%);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.AppForm .AppFormRight p{
+    z-index: 1;
+}
+.form-check:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
